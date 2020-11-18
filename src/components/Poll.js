@@ -17,6 +17,9 @@ const Poll = ({ options }) => {
           Which Javascript framework do you prefer in 2020?
         </h3>
         <div>{renderedOptions}</div>
+        <button type="submit" className="submit-button">
+          Submit
+        </button>
       </div>
     </div>
   );
