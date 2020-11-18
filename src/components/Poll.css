@@ -19,3 +19,9 @@
   color: #fff;
   cursor: pointer;
 }
+
+.submit-button:hover {
+  transition: ease-in 0.3s;
+  background: #3232cc;
+  border-color: rgb(218, 165, 32);
+}
