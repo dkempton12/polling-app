@@ -14,7 +14,7 @@ const Poll = ({ options }) => {
     <div>
       <div className="container">
         <h3 className="heading">
-          Which Javascript framework do you currently prefer?
+          Which Javascript framework do you prefer in 2020?
         </h3>
         <div>{renderedOptions}</div>
       </div>
