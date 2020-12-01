@@ -2,6 +2,7 @@ import './Poll.css';
 import React from 'react';
 
 const Poll = ({ options }) => {
+  const [response, setResponse] = '';
   const renderedOptions = options.map((option) => {
     return (
       <div className="poll-input" key={option.itemId}>
